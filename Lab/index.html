@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>home</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Tab navigation -->
+    <div class="tab">
+      <a href="index.html" class="active">Home</a>
+      <a href="about.html">About</a>
+      <a href="lab.html">Labs</a>
+    </div>
+   
+        <h1>Nộp Bài Tập</h1>
+    </header>
+    
+    <main>
+        <form id="submitForm">
+            <label for="studentName">Họ và tên sinh viên:</label>
+            <input type="text" id="studentName" required>
+
+            <label for="assignment">Nội dung bài nộp:</label>
+            <textarea id="assignment" rows="5" required></textarea>
+
+            <label for="fileUpload">Tải lên file:</label>
+            <input type="file" id="fileUpload" required>
+
+            <button type="submit">Nộp Bài</button>
+        </form>
+
+        <div id="feedback"></div>
+    </main>
+
+    <footer>
+        <p> 2024 Trường Đại Học Nông Lâm</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+
+    
+  </body>
+</html>
